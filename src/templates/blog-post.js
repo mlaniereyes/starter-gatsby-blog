@@ -11,6 +11,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulBlogPost')
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+    console.log('hello world..');
 
     return (
       <Layout location={this.props.location}>
