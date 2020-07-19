@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker: # run the steps with Docker
-      - image: circleci/node:12x
+      - image: circleci/node:12
     steps:
       - checkout
       - run:
